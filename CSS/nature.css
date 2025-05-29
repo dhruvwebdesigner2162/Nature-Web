@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header_with_banner {
+    background-image: linear-gradient(rgba(0, 62, 73, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Banner\ Image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media(width <=991px) {
+    .header_with_banner {
+        height: auto;
+    }
+}
+
+.text_color {
+    color: #536942;
+}
+
+.fw-normal {
+    font-weight: normal !important;
+}
+
+.font-family {
+    font-family: "Istok Web", sans-serif;
+}
