@@ -83,3 +83,10 @@ body {
 .padding-inline {
     padding-inline: 3px;
 }
+
+@media(width <=767px) {
+    .footer_text {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
