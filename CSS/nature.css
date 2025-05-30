@@ -55,3 +55,23 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.btn-q-bg {
+    background-color: #FFD936;
+
+    &:hover {
+        background-color: #DAB200;
+    }
+}
+
+.fw-custom {
+    font-weight: 600;
+
+    &:hover {
+        color: #536942;
+    }
+}
+
+.padding-inline {
+    padding-inline: 3px;
+}
