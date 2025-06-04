@@ -90,3 +90,20 @@ body {
         justify-content: center !important;
     }
 }
+
+.services_with_banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../Images/services.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.services-btn-border {
+    border: 1px solid #536942;
+    color: #536942;
+
+    &:hover {
+        border: 1px solid #9BC903;
+        color: #9BC903;
+    }
+}
