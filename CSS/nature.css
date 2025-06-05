@@ -107,3 +107,14 @@ body {
         color: #9BC903;
     }
 }
+
+.custom-bg-light {
+    background-color: #F6F8F5;
+}
+
+.contact_with_banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(..//Images/contact\ banner\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
